@@ -30,7 +30,7 @@ class COG_Tasks(commands.Cog):
 			guild = self.bot.get_guild(SERVER_ID)
 
 			embed = disnake.Embed(title = f"Новый день начался - {guild.name}", color = 0xffffff)
-			embed.set_image(url = f"https://tenor.com/oAJ1BFQ2WEG.gif")
+			embed.set_image(url = f"https://tenor.com/pSA74DRsqXF.gif")
 			await self.bot.get_channel(CHANNEL_ID).send(embed = embed)
 
 		except Exception as e:
